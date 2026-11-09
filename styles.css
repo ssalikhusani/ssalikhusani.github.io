@@ -1,0 +1,112 @@
+
+/* General website design */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #243247;
+  line-height: 1.6;
+  margin: 0;
+  padding: 30px;
+}
+
+/* Main headings */
+h1 {
+  color: #17365d;
+  font-size: 36px;
+}
+
+h2 {
+  color: #245a81;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #34495e;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  max-width: 900px;
+}
+
+/* Sections */
+section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Links */
+a {
+  color: #145b91;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 3px solid #e59b25;
+  outline-offset: 3px;
+}
+
+/* Navigation */
+nav {
+  background-color: #17365d;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Skip navigation link */
+.skip-link {
+  position: absolute;
+  left: 10px;
+  top: -100px;
+  background: white;
+  color: #17365d;
+  padding: 10px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #17365d;
+  color: white;
+  border-radius: 8px;
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  nav a {
+    margin: 5px;
+  }
+}
